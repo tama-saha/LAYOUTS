@@ -1,0 +1,136 @@
+.container {
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    bottom: 0;
+    /* border: 1px solid #4F575A; */
+    transform: translate3d(0px, 130%, 0); /* X, Y, Z */
+  }
+  
+  /* KEYFRAMES */
+  @keyframes animateY {
+    0% {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translateY(-700px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateX {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(15px);
+    }
+  }
+  
+  /* ANIMATIONS */
+  .a1 {
+    animation: animateY 35s ease-out infinite;
+    animation-delay: 10s;
+  
+    .icon {
+      animation: animateX 2s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a2 {
+    animation: animateY 30s ease-out infinite;
+    left: 5%;
+    animation-delay: 3s;
+  
+    .icon {
+      animation: animateX 4s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a3 {
+    animation: animateY 35s ease-out infinite;
+    animation-delay: 10s;
+    left: 10%;
+  
+    .icon {
+      animation: animateX 2s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a4 {
+    animation: animateY 32s linear infinite;
+    left: 20%;
+  
+    .icon {
+      animation: animateX 3s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a5 {
+    animation: animateY 37s linear infinite;
+    left: 30%;
+  
+    .icon {
+      animation: animateX 4s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a6 {
+    animation: animateY 31s linear infinite;
+    animation-delay: 20s;
+  
+    left: 50%;
+  
+    .icon {
+      animation: animateX 2s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a7 {
+    animation: animateY 30s linear infinite;
+  
+    left: 65%;
+  
+    .icon {
+      animation: animateX 2s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a8 {
+    animation: animateY 32s linear infinite;
+  
+    left: 80%;
+  
+    .icon {
+      animation: animateX 3s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a9 {
+    animation: animateY 39s linear infinite;
+    animation-delay: 7s;
+  
+    left: 90%;
+  
+    .icon {
+      animation: animateX 4s ease-in-out infinite alternate;
+    }
+  }
+  
+  .a10 {
+    animation: animateY 36s linear infinite;
+  
+    left: 95%;
+  
+    .icon {
+      animation: animateX 2s ease-in-out infinite alternate;
+    }
+  }
+  
